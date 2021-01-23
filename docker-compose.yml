@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  proxy:
+    restart: unless-stopped
+    build:
+      context: .
+    environment:
+      USERNAME: 28722123799
+      PASSWORD: f12AK12e
